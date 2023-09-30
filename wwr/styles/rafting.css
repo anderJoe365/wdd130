@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Skranji&display=swap');
+
+:root {
+    --primary-color: #fdee00;
+    --secondary-color: #6fd7a1;
+    --accent1-color: #04395e;
+    --accent2-color: #830101;
+
+    --heading-font: 'Skranji', serif;
+    --paragraph-font: 'quicksand', serif;
+
+    --nav-background-color: #013219;
+    --nav-link-color: #349bea;
+    --nav-hover-link-color: #00209e;
+    --nav-hover-background-color: #ff9494;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2 {
+    font-family: var(--heading-font);
+}
+div{
+    position: relative;
+}
+div h1 {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+
+}
+div article {
+    width: 40rem;
+    padding: 1rem;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    background-color: var(--secondary-color);
+}
+article img {
+    float: right;
+    width: 200px;
+    height: auto;
+}
+.box img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
