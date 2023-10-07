@@ -34,7 +34,6 @@ header nav{
     width: 500px;
     font-size: larger;
     font-weight: bold;
-    border: solid gray;
 }
 header nav a {
     color: var(--primary-color);
@@ -65,19 +64,26 @@ div h1 {
     font-family: var(--heading-font);
 
 }
-div article {
-    width: 40rem;
+div img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+article {
+    width: 800px;
+    height: auto;
     padding: 1rem;
     position: absolute;
     top: 150px;
-    left: 600px;
-    background-color: var(--secondary-color);
+    left: 450px;
+    background-color: rgba(111, 215, 161, 0.7);
+    
 
 }
 article img {
-    float: right;
-    width: 200px;
+    width: 300px;
     height: auto;
+    float: right;
 }
 section{
     margin-top: 60px;
@@ -108,12 +114,6 @@ footer{
     float: right;
 }
 
-   
-.box img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
 nav a {
    text-decoration: none; 
 }
