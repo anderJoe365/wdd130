@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1.2em;
+}
+header {
+    margin: auto;
+    width: 400px;
+}
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .4rem;
+    background-color: beige;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .3rem;
+    margin: .2em;
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding:  .3rem;
+}
+label {
+    padding-left: 1rem;
+}
+input, select, textarea {
+    padding:  .5rem;
+    font-size: 1rem;
+}
+img {
+   width: 350px;
+   height: auto;
+}
+button {
+    margin: 1rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    background-color: #111bac;
+    color: #cbe218;
+}
+button:hover {
+    background-color: green;
+}
