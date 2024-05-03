@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sedan:ital@0;1&display=swap');
+
+:root {
+    --primary-color: #014765;
+    --secondary-color: #ffa366;
+    --accent1-color: #fafd68;
+    --accent2-color: #fff;
+
+    --heading-font: 'Montserrat', serif;
+    --paragraph-font: 'Sedan', serif;
+
+    --nav-background-color: #ffa366;
+    --nav-link-color: black;
+    --nav-hover-link-color: #014765;
+    --nav-hover-background-color: #14ff7a;
+
+}
+
+body {
+    max-width: fit-content;
+    padding: .5rem;
+}
+
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article img {
+   max-width: 170px;
+    height: auto;
+    float: right;
+}
+article {
+    position: absolute;
+    top: 85px;
+    background-color: #ffa36660;
+}
+
+h1{
+    font-family: var(--heading-font);
+    font-weight: 800;
+    color: var(--accent1-color);
+    position: absolute;
+    top: 1px;
+    left: 310px;
+    background-color: #01476570;
+}
+h2 {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    font-weight: 1000;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+footer nav a {
+    text-decoration: none;
+}
