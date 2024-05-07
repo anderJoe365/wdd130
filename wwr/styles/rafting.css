@@ -37,6 +37,7 @@ article img {
 }
 article {
     position: absolute;
+    width: fit-content;
     top: 100px;
     background-color: #ffa36660;
     padding: 5px;
@@ -50,7 +51,6 @@ h1{
     position: absolute;
     top: 10px;
     background-color: #01476570;
-
     padding-left: 43rem;
     padding-right: 42.8rem;
 }
