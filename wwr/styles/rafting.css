@@ -66,6 +66,12 @@ h2 {
 .flex {
     display: flex;
 }
+
+.flex img {
+    max-width: 300px;
+    height: auto;
+}
+
 p {
     font-family: var(--paragraph-font);
     font-weight: 1000;
@@ -107,4 +113,9 @@ header nav a {
 
 footer nav a {
     text-decoration: none;
+
+}
+
+.sociallinks {
+    text-align: end;
 }
