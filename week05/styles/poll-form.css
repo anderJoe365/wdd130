@@ -1,0 +1,107 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    background: beige;
+    color: rgb(28, 22, 22);
+}
+
+header {
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(29, 61, 93);
+    text-align: center;
+}
+
+form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, .5);
+    border-radius: 1em;
+    background-color: #d5caca;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: .5rem;
+    border: 1px solid rgba(0, 0, 0, .5);
+    padding: 1em;
+}
+
+legend {
+    padding: .5em;
+    color: rgb(29, 61, 93);
+}
+
+label, input, button, select, textarea {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: .5rem;
+}
+
+input, select, textarea {
+    font-size: 1rem;
+    padding: .2rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: .8em;
+    background-color: rgb(29, 61, 93);
+    color: aliceblue;
+    border: none;
+    border-radius: 1rem;
+    padding: 1em;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: forestgreen;
+}
+
+footer {
+    text-align: center;
+    margin: .5rem auto 0;
+    width: 800px;
+    font-size: 1rem;
+    color: rgb(29, 61, 93);
+    border-top: 1px solid rgba(0, 0, 0, .8)
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .8rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: .3rem;
+}
