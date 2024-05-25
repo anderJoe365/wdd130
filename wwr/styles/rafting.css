@@ -120,3 +120,32 @@ footer nav a {
 .sociallinks {
     text-align: end;
 }
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 1em;
+    background-color: var(--accent2-color);
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .2rem;
+    margin: .1em;
+    border: 1px solid rgba(0, 0, 0, .5);
+    border-radius: .2rem;
+    padding: .3rem;
+}
+label, input, button,  textarea {
+    font-family: var(--paragraph-font);
+}
+
+label {
+    padding: .2em;
+}
+input, textarea {
+    font-size: .4em;
+    padding: .1rem;
+}
